@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import { StyleSheet, Text, View,FlatList } from 'react-native';
 import Header from './component/header';
+import TodoItem from './component/toItem';
 
 export default function App() {
 
@@ -9,6 +10,15 @@ const [todo,setTodo] = useState([
   {text:"create an app" , key:'2'},
   {text:"play on the switch" , key:'3'},
 ]);
+
+// creating delete button
+
+const pressHandler = (key)=> {
+  setTodo((prevTodo)=>{
+    return prevTodo.filter(todo => todo.key != key)
+  });
+}
+
   return (
     <View style={styles.container}>
      <Header/>
@@ -17,7 +27,7 @@ const [todo,setTodo] = useState([
       <View style={styles.list}>
       <FlatList data={todo} 
       renderItem={({item}) => (
-        <Text>{item.text}</Text>
+        <TodoItem  item={item} pressHandler={pressHandler}/>
   )}/>
       </View>
      </View>
