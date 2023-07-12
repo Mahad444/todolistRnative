@@ -3,7 +3,7 @@ import { Text,TouchableOpacity,StyleSheet } from "react-native";
 
 export default function TodoItem ({item , pressHandler}){
     return (
-        <TouchableOpacity onPress={()=>pressHandler(item.keya)}>
+        <TouchableOpacity onPress={() => pressHandler(item.keya)}>
             <Text style={styles.item}>{item.text}</Text>
         </TouchableOpacity>
     )
