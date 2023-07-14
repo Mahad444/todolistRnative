@@ -48,7 +48,7 @@ const submitHandler =(text) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#f9f9f9',
     alignItems: 'center',
     justifyContent: 'center',
   },
