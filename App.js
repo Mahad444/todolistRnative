@@ -8,7 +8,7 @@ export default function App() {
 
 const [todo,setTodo] = useState([
   {text:"buy mayai" , key:'1'},
-  {text:"create an app" , key:'2'},
+  {text:"create an app that is cool" , key:'2'},
   {text:"play on the switch" , key:'3'},
 ]);
 
