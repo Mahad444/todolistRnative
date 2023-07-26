@@ -7,7 +7,7 @@ import AddTodo from './component/addTodo';
 export default function App() {
 
 const [todo,setTodo] = useState([
-  {text:"buy samaki" , key:'1'},
+  {text:"buy unga" , key:'1'},
   {text:"create an app that is cool" , key:'2'},
   {text:"play on the switch" , key:'3'},
 ]);
