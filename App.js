@@ -9,7 +9,7 @@ export default function App() {
 const [todo,setTodo] = useState([
   {text:"buy unga at Naivas" , key:'1'},
   {text:"create an app (Gaming App)" , key:'2'},
-  {text:"play on the switch" , key:'3'},
+  {text:"Go To Two Rivers Mall" , key:'3'},
 ]);
 
 // creating delete button
