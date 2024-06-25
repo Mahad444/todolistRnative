@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 content :{
-  padding:40,
+  padding:39,
 },
 list:{
   marginTop:20,
