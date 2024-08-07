@@ -9,6 +9,7 @@ export default function App() {
 const [todo,setTodo] = useState([
   {text:"buy unga at Naivas" , key:'1'},
   {text:"create an app (Gaming App)" , key:'2'},
+  {text:"Go To Village Mall" , key:'3'},
   {text:"Go To Two Rivers Mall" , key:'3'},
 ]);
 
