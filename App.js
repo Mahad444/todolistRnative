@@ -58,6 +58,7 @@ content :{
 },
 list:{
   marginTop:20,
+  height:400,
 
 
 }
