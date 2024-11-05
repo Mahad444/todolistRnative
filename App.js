@@ -59,6 +59,8 @@ content :{
 list:{
   marginTop:20,
   height:400,
+  justifyContent:'center',
+
 
 
 }
