@@ -8,6 +8,9 @@ export default function TodoItem ({item , pressHandler}){
         </TouchableOpacity>
     )
 
+    // keya is the key of the item
+    // pressHandler is the function that will be called when the item is pressed
+    
 }
 
 
