@@ -18,6 +18,11 @@ export default function TodoItem ({item , pressHandler}){
     </TouchableOpacity>
     // the item will be displayed in a TouchableOpacity component
     // when the item is pressed, the pressHandler function will be called with the key of the item as a parameter
+    // the key of the item is used to identify the item that was pressed
+    {
+        keya: '1',
+        text: 'buy coffee'
+    }
 }
 
 
