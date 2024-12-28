@@ -6,8 +6,8 @@ export default function AddTodo({submitHandler}) {
   const [text, setText] = useState('');
 
   const changeHandler = (val) => {
-    setText();
-  };
+      setText(val);
+    };
 
   return (
     <View>
